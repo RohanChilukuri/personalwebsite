@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+.ui.header:first-child {
+  margin-top: 1em !important;
+}
+.links img {
+  transition: filter .3s ease-in-out, transform .3s ease-in-out;
+  -webkit-transition: -webkit-transform .3s ease-in-out;
+  -ms-transform: scale(1.0);
+  -webkit-transform: scale(1.0);
+  transform: scale(1.0);
+  filter: invert(25%);
+}
+.links img:hover {
+  filter: invert(0%);
+  transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+}
+.ui.basic.label  {
+  border: none !important;
+  margin-left: 0 !important;
+  font-size: 0.8rem !important;
+  background: #FAFAFA !important;
+}
+.ui.tiny.image {
+  padding-left: 0.5rem;
+}
