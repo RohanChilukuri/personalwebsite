@@ -21,6 +21,8 @@
 .ui.basic.label  {
   border: none !important;
   margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding: 0 !important;
   font-size: 0.8rem !important;
   background: #FAFAFA !important;
 }

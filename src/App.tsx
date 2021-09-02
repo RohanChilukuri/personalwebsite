@@ -7,15 +7,15 @@ function App() {
     {
       menuItem: 'About',
       render: () => <Tab.Pane attached={false}>
-        Hi, I am a junior at UC Berkeley studying Computer Science and Applied Math.
+        Hi, I am a senior at UC Berkeley studying Computer Science and Applied Mathematics.
         Feel free to browse around this website to learn more about me.
       </Tab.Pane>,
     },
     {
       menuItem: 'Work',
       render: () => <Tab.Pane attached={false}>
-        My previous work experience consists of four internships at tech companies 
-        (software, semiconductor inspection, and education technology companies), 
+        My previous work experience consists of five internships at tech companies 
+        (finance, software, semiconductor inspection, and education technology companies), 
         as well as a personal project on stock market timing.
         </Tab.Pane>,
     },
@@ -52,7 +52,7 @@ function App() {
       <Header as='h1'>Links</Header>
       <List horizontal className='links'>
         <List.Item>
-          <Image src={require('./icons/email.png')} size='tiny' as='a' href='mailto:rohan.chilukuri@gmail.com' target="_blank" />
+          <Image src={require('./icons/email.png')} size='tiny' as='a' href='mailto:rohanchilukuri@berkeley.edu' target="_blank" />
           <br/>
           <Label basic>Email</Label>
         </List.Item>
